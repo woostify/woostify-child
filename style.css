@@ -2,10 +2,11 @@
 Theme Name: Woostify Child
 Theme URI: https://woostify.com/
 Description: Woostify WordPress theme example child theme.
-Author: Nick
+Author: Woostify
 Author URI: https://woostify.com/
 Template: woostify
-Version: 1.0
+Version: 1.0.1
 */
 
-/* Parent stylesheet should be loaded from functions.php not using @import */
+/* =Theme customization starts here
+-------------------------------------------------------------- */
