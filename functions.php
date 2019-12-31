@@ -13,19 +13,6 @@
  * @link http://codex.wordpress.org/Plugin_API
  *
  */
-
-/**
- * Load the parent style.css file
- *
- * @link http://codex.wordpress.org/Child_Themes
- */
-function woostify_child_enqueue_parent_style() {
-	// Load the stylesheet
-	wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
-	
-}
-add_action( 'wp_enqueue_scripts', 'woostify_child_enqueue_parent_style' );
-
 /**
  * Add your custom functions below
  */
